@@ -6,6 +6,8 @@ import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
 
 import Login from './components/login.component';
 import SignUp from './components/signup.component';
+import Edit from './components/edit.component';
+import CreateEmployee from './components/create.component';
 
 function App() {
   return (
@@ -28,6 +30,18 @@ function App() {
                   Sign Up
                 </Link>
               </li>
+
+              <li className="nav-item">
+                <Link className="nav-link" to ={'/edit-employee'}>
+                  Edit Info
+                </Link>
+              </li>
+
+              <li className="nav-item">
+                <Link className="nav-link" to ={'/create-employee'}>
+                  Add Employee
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
@@ -39,6 +53,8 @@ function App() {
             <Route exact path="/" element = {<Login />} />
             <Route path="/sign-in" element = {<Login />} />
             <Route path="/sign-up" element = {<SignUp />} />
+            <Route path="/edit-employee" element = {<Edit />} />
+            <Route path="/create-employee" element = {<CreateEmployee />} />
           </Routes>
         </div>
       </div>
