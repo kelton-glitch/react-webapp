@@ -32,13 +32,13 @@ function App() {
               </li>
 
               <li className="nav-item">
-                <Link className="nav-link" to ={'/edit-employee'}>
+                <Link className="nav-link" to ={'/edit'}>
                   Edit Info
                 </Link>
               </li>
 
               <li className="nav-item">
-                <Link className="nav-link" to ={'/create-employee'}>
+                <Link className="nav-link" to ={'/create'}>
                   Add Employee
                 </Link>
               </li>
