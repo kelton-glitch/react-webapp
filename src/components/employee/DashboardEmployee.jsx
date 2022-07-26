@@ -142,7 +142,7 @@ class DashboardHR extends Component {
                                         icon={faFileAlt}
                                         className="sidebar-icon"
                                         />
-                                        leave Application
+                                        Leave Application
                                     </Link>
                                 </li>
                             </ul>
