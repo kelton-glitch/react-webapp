@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "./FamilyInfo.css";
 import axios from "axios";
 import FamilyInfoTable from "./FamilyInfoTable.jsx";
 import FamilyInfoForm from "./FamilyInfoForm.jsx";
