@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import "./DashboardEmployee.css";
 import { HashRouter as Router, Route, Link } from "react-router-dom";
 import {Switch} from "react-router";
-import {Redirect} from "react-router-dom";
+//import {Redirect} from "react-router-dom";
 import NavBar from "../Navbar.jsx";
 import PersonalInfo from "./PersonalInfo.jsx";
 import Education from "./Education.jsx";
@@ -34,7 +34,7 @@ class DashboardHR extends Component {
     handleChange=(checked)=> {
         console.log("switch");
 
-        if(this.state.checked == true){
+        if(this.state.checked === true){
             document.getElementById("sidebar").setAttribute("class", "display-none");
         }
 
